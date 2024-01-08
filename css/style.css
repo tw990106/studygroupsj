@@ -1,0 +1,10 @@
+img{
+    width: 300px;
+}
+table{
+    border: 1px solid #707070;
+}
+th,
+td{
+    border: 1px solid #000;
+}
