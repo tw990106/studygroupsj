@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #F7DCDC;
+    background-size: 110px 200px;
+    background-repeat: repeat-x;
+}
+*{
+    padding-left: 10px;
+}
+
+.challenge1 .box{
+    border: 50px solid #FF9432;
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+.challenge1 .pink{
+    border: 50px solid #FE6EBC;
+    visibility: hidden;
+}
+.challenge1 .yellow{
+    border: 50px solid #FBFF32;
+}
+.challenge2 h3{
+    color: #9b59b6;
+}
+.challenge2 p{
+    font-size: 16px;
+    font-family: 'Verdana';
+    font-style: italic;
+}
+.challenge2 p::first-letter{
+    font-size: 200%;
+    color: #2980b9;
+}
+.challenge2 h3:before{
+    content: "Topic: ";
+}
+.challenge2 h3:first-child{
+    text-align: center;
+}
